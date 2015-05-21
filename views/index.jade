@@ -2,9 +2,19 @@ extends layout
 
 block content
   h1= title
-  p ¡Bienvenidos! to User List
+  p ¡Bienvenidos!
 
   #wrapper
+
+      #userInfo
+        h3 User Info
+          p
+            strong Username:
+              |  <span id='userInfoName'></span>
+              br
+            strong Gender:
+              |  <span id='userInfoGender'></span>
+              br
 
       h2 User List
       #userlist
@@ -14,4 +24,15 @@ block content
             th Email
             th Delete?
           tbody
+
+
+       h2 Add User
+        #addUser
+            fieldset
+                input#inputUserName(type='text', placeholder='Username')
+                input#inputUserEmail(type='text', placeholder='Email')
+                br
+                input#inputUserGender(type='text', placeholder='gender')
+                br
+                button#btnAddUser Add User
    

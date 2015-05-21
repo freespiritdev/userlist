@@ -1,6 +1,6 @@
 body {
   padding: 35px;
-  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 12px "Lato", Helvetica, Arial, sans-serif;
 }
 
 h2 {
@@ -42,14 +42,14 @@ a {
       }
 
 #userInfo {
-  width:300px;
+  width:260px;
   position:absolute;
   top:0; left:0;
 }
   #userInfo p {
     padding:15px;
-    border:1px solid #CCC;
-    background:rgba(60,140,255,0.05);
+    border:1px solid #3DD;
+    background:rgba(20,130,50,0.05);
   }
 
 fieldset {
