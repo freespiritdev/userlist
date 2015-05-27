@@ -9,12 +9,17 @@ block content
       #userInfo
         h3 User Info
           p
-            strong Username:
-              |  <span id='userInfoName'></span>
-              br
-            strong Gender:
-              |  <span id='userInfoGender'></span>
-              br
+             strong Name:
+                |  <span id='userInfoName'></span>
+                br
+                strong Age:
+                |  <span id='userInfoAge'></span>
+                br
+                strong Gender:
+                |  <span id='userInfoGender'></span>
+                br
+                strong Location:
+                |  <span id='userInfoLocation'></span>
 
       h2 User List
       #userlist
@@ -32,6 +37,10 @@ block content
                 input#inputUserName(type='text', placeholder='Username')
                 input#inputUserEmail(type='text', placeholder='Email')
                 br
+                input#inputUserFullname(type='text', placeholder='Full Name')
+                input#inputUserAge(type='text', placeholder='Age')
+                br
+                input#inputUserLocation(type='text', placeholder='Location')
                 input#inputUserGender(type='text', placeholder='gender')
                 br
                 button#btnAddUser Add User
